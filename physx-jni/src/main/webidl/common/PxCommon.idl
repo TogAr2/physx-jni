@@ -245,7 +245,6 @@ interface PxTransform {
     boolean isValid();
     boolean isSane();
     boolean isFinite();
-    [Value] PxPlane inverseTransform([Const, Ref] PxPlane plane);
     [Value] PxTransform getNormalized();
 
     [Value] attribute PxQuat q;
